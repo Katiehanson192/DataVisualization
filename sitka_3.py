@@ -63,7 +63,7 @@ plt.tick_params(axis="both", which="major", labelsize=16)
 
 fig.autofmt_xdate() #slants x-axis to make more readable
 
-#plt.show()  #1st graph
+plt.show()  #1st graph
 
 
 #creating sub plots
