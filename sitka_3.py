@@ -67,11 +67,11 @@ plt.show()  #1st graph
 
 
 #creating sub plots
-plt.subplot(4,1,1)
+plt.subplot(2,1,1)
 plt.plot(dates,highs, c ="red")
 plt.title("Highs")
 
-plt.subplot(4,1,2)
+plt.subplot(2,1,2)
 plt.plot(dates,lows, c ="blue")
 plt.title("Lows")
 
